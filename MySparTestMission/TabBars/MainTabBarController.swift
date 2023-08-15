@@ -30,10 +30,10 @@ final class MainTabBarController: UITabBarController {
         let basketController = UIViewController()
         let profileController = UIViewController()
         
-        let mainNavigation = UINavigationController(rootViewController: mainController)
-        let catalogNavigation = UINavigationController(rootViewController: catalogController)
-        let basketNavigation = UINavigationController(rootViewController: basketController)
-        let profileNavigation = UINavigationController(rootViewController: profileController)
+        let mainNavigation = NavBarController(rootViewController: mainController)
+        let catalogNavigation = NavBarController(rootViewController: catalogController)
+        let basketNavigation = NavBarController(rootViewController: basketController)
+        let profileNavigation = NavBarController(rootViewController: profileController)
         
         mainNavigation.tabBarItem = UITabBarItem(title: "Главное", image: UIImage(systemName: "house.fill"), tag: Tabs.Main.rawValue)
         catalogNavigation.tabBarItem = UITabBarItem(title: "Каталог", image: UIImage(systemName: "list.number"), tag: Tabs.Catalog.rawValue)
