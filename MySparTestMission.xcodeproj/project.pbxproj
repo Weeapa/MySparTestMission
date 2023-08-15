@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		443D052E2A8A134000C48449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D052D2A8A134000C48449 /* AppDelegate.swift */; };
 		443D05302A8A134000C48449 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D052F2A8A134000C48449 /* SceneDelegate.swift */; };
-		443D05322A8A134000C48449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D05312A8A134000C48449 /* ViewController.swift */; };
+		443D05322A8A134000C48449 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D05312A8A134000C48449 /* BaseController.swift */; };
 		443D05372A8A134200C48449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443D05362A8A134200C48449 /* Assets.xcassets */; };
 		443D053A2A8A134200C48449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443D05382A8A134200C48449 /* LaunchScreen.storyboard */; };
 		443D05462A8A1D9D00C48449 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D05452A8A1D9D00C48449 /* Main.swift */; };
@@ -24,7 +24,7 @@
 		443D052A2A8A134000C48449 /* MySparTestMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySparTestMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		443D052D2A8A134000C48449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		443D052F2A8A134000C48449 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		443D05312A8A134000C48449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		443D05312A8A134000C48449 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		443D05362A8A134200C48449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		443D05392A8A134200C48449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443D053B2A8A134200C48449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,8 +69,7 @@
 				443D05502A8A691600C48449 /* SupportingFiles */,
 				443D054F2A8A68E400C48449 /* Applications */,
 				443D05442A8A1CD000C48449 /* TabBars */,
-				443D05312A8A134000C48449 /* ViewController.swift */,
-				443D05512A8A7FBE00C48449 /* NavBarController.swift */,
+				443D05312A8A134000C48449 /* BaseController.swift */,
 			);
 			path = MySparTestMission;
 			sourceTree = "<group>";
@@ -78,7 +77,7 @@
 		443D05442A8A1CD000C48449 /* TabBars */ = {
 			isa = PBXGroup;
 			children = (
-				443D054D2A8A3C4000C48449 /* MainTabBarController.swift */,
+				443D05532A8B765100C48449 /* Controllers */,
 				443D05452A8A1D9D00C48449 /* Main.swift */,
 				443D05472A8A1E5B00C48449 /* Сatalog.swift */,
 				443D05492A8A1EEA00C48449 /* Basket.swift */,
@@ -104,6 +103,15 @@
 				443D053B2A8A134200C48449 /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		443D05532A8B765100C48449 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				443D054D2A8A3C4000C48449 /* MainTabBarController.swift */,
+				443D05512A8A7FBE00C48449 /* NavBarController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				443D05322A8A134000C48449 /* ViewController.swift in Sources */,
+				443D05322A8A134000C48449 /* BaseController.swift in Sources */,
 				443D054C2A8A1F3E00C48449 /* Profile.swift in Sources */,
 				443D05462A8A1D9D00C48449 /* Main.swift in Sources */,
 				443D054E2A8A3C4000C48449 /* MainTabBarController.swift in Sources */,

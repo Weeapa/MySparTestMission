@@ -16,13 +16,13 @@ final class NavBarController: UINavigationController {
     }
     
     private func configure() {
-        view.backgroundColor = .white
+        view.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
         navigationBar.isTranslucent = false
         navigationBar.standardAppearance.titleTextAttributes =  [
             
-            .foregroundColor: UIColor.gray
+            .foregroundColor: UIColor.gray,
+            .font: UIFont(name: "Helvetica", size: 45) ?? UIFont() // поиграться
         ]
-       
     }
 }
 

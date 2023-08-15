@@ -25,10 +25,11 @@ final class MainTabBarController: UITabBarController {
         tabBar.layer.borderColor = UIColor.white.cgColor
         tabBar.layer.masksToBounds = true
         
-        let mainController = UIViewController()
-        let catalogController = UIViewController()
-        let basketController = UIViewController()
-        let profileController = UIViewController()
+        
+        let mainController = Main()
+        let catalogController = Catalog()
+        let basketController = Basket()
+        let profileController = Profile()
         
         let mainNavigation = NavBarController(rootViewController: mainController)
         let catalogNavigation = NavBarController(rootViewController: catalogController)

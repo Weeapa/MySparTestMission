@@ -1,20 +1,11 @@
-//
-//  MainVC.swift
-//  MySparTestMission
-//
-//  Created by Калякин Дима  on 14.08.2023.
-//
-
 import Foundation
 import UIKit
 
-final class Main: UIViewController {
+final class Main: BaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
-        
-        
+        view.backgroundColor = .white
     }
     
 }
