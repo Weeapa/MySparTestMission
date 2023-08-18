@@ -18,6 +18,7 @@
 		443D054C2A8A1F3E00C48449 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D054B2A8A1F3E00C48449 /* Profile.swift */; };
 		443D054E2A8A3C4000C48449 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D054D2A8A3C4000C48449 /* MainTabBarController.swift */; };
 		443D05522A8A7FBE00C48449 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D05512A8A7FBE00C48449 /* NavBarController.swift */; };
+		443D05572A8B93C100C48449 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D05562A8B93C100C48449 /* UIView + ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		443D054B2A8A1F3E00C48449 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		443D054D2A8A3C4000C48449 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		443D05512A8A7FBE00C48449 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		443D05562A8B93C100C48449 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		443D052C2A8A134000C48449 /* MySparTestMission */ = {
 			isa = PBXGroup;
 			children = (
+				443D05542A8B937400C48449 /* Extensions */,
 				443D05502A8A691600C48449 /* SupportingFiles */,
 				443D054F2A8A68E400C48449 /* Applications */,
 				443D05442A8A1CD000C48449 /* TabBars */,
@@ -112,6 +115,14 @@
 				443D05512A8A7FBE00C48449 /* NavBarController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		443D05542A8B937400C48449 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				443D05562A8B93C100C48449 /* UIView + ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 				443D054C2A8A1F3E00C48449 /* Profile.swift in Sources */,
 				443D05462A8A1D9D00C48449 /* Main.swift in Sources */,
 				443D054E2A8A3C4000C48449 /* MainTabBarController.swift in Sources */,
+				443D05572A8B93C100C48449 /* UIView + ext.swift in Sources */,
 				443D054A2A8A1EEA00C48449 /* Basket.swift in Sources */,
 				443D05482A8A1E5B00C48449 /* Сatalog.swift in Sources */,
 				443D052E2A8A134000C48449 /* AppDelegate.swift in Sources */,
